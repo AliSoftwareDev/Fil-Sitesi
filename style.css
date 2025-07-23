@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    height: 200vh;
+    
     font-family: "Electrolize", sans-serif;
 }
 
@@ -14,7 +14,7 @@ body{
 
 .navbar{
     background-color: black;
-    height: 60px;
+    height: 50px;
     color: white;
     position: sticky;
     top: 0;
@@ -109,6 +109,16 @@ body{
     cursor: pointer;
 }
 /*! sidebar css end */
-/*! featured content start */
+/*! featured start */
+.content-wrapper{
+    margin-left: 50px;
+    
+}
 
-/*! featured content end */
+.featured-content{
+    background: url(img/spiderman.jpg);
+    padding: 50px;
+    height: calc(100vh - 150px);
+}
+
+/*! featured end */
