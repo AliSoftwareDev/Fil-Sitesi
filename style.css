@@ -141,6 +141,7 @@ body {
 }
 .featured-buttons .info-button {
   background-color: rgb(145, 142, 142, 0.5);
+  color: white;
 }
 
 /*! featured end */
