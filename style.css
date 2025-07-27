@@ -124,6 +124,7 @@ body {
   height: calc(100vh - 150px);
   background-size: 100% 100%;
   color: white;
+  position: relative;
 }
 .featured-title {
   width: 400px;
@@ -159,8 +160,10 @@ body {
 
 /*! filter start */
 .movie-list-filter {
-  margin: 25px 0 20px 50px;
-  padding: 20px;
+    position: absolute;
+    bottom: -30px;
+    left: 85px;
+    transform: translate(-70%);
 }
 .movie-list-filter select{
     background-color: black;
