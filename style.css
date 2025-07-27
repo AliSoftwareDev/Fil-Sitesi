@@ -38,6 +38,7 @@ body {
   display: flex;
   list-style: none;
   column-gap: 30px;
+  padding: 0;
 }
 .menu-list-item {
   cursor: pointer;
@@ -180,5 +181,12 @@ body {
   margin-top: 125px;
   height: auto;
 }
+   .movie-list{
+    list-style: none;
+    padding: 0;
+  }
+  .movie-item-img{
+    width: 270px;
+  }
 
 /*! movie list end */
