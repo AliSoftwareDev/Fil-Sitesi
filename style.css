@@ -161,8 +161,8 @@ body {
 /*! filter start */
 .movie-list-filter {
     position: absolute;
-    bottom: -30px;
-    left: 85px;
+    bottom: 20px;
+    left: 160px;
     transform: translate(-70%);
 }
 .movie-list-filter select{
@@ -172,4 +172,13 @@ body {
     width: 125px;
 
 }
-/*! filter end */
+/*! filter end */ 
+
+/*!  movie list start */
+.movie-list-container{
+  margin-left: 70px;
+  margin-top: 125px;
+  height: auto;
+}
+
+/*! movie list end */
